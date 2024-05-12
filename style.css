@@ -10,7 +10,7 @@
 .sky {
     height: 100vh;
     width: 800vw;
-    background-image: url('./background.jpg');
+    background-image: url('./assets/background.jpg');
     background-repeat: repeat-x;
    position: absolute;
     animation: carMove linear 8s infinite; 
@@ -19,7 +19,7 @@
  .trees {
     height: 100vh;
     width: 800vw;
-    background-image: url('trees.png');
+    background-image: url('./assets/trees.png');
     position: absolute;
     top: -150px;
     background-repeat: repeat-x;
@@ -29,7 +29,7 @@
 .track {
     height: 30vh;
     width: 800vw;
-    background-image: url('track.png');
+    background-image: url('./assets/track.png');
     position: absolute;
     bottom: 0px;
     background-repeat: repeat-x;
@@ -39,7 +39,7 @@
 .car {
     height: 30vh;
     width: 700px;
-    background-image: url('./car_body.png');
+    background-image: url('./assets/car_body.png');
      background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
